@@ -1,0 +1,26 @@
+{
+  "name": "Koa socket-io electron",
+  "description": "A demo application which launches two electron windows which can communicate with each other using a pair of socket-io web-components. One window acts as the server the other a client. The client app is also served over localhost.",
+  "main": "index.js",
+  "authors": [
+    "Brett Lamy"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "homepage": "https://github.com/BLamy/socket-io",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "koa-route": "koaElements/koa-route",
+    "koa-server": "koaElements/koa-server"
+  }
+}
